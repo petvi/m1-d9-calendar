@@ -28,5 +28,29 @@ body {
 }
 
 .selected {
-  background-color: rgb(255, 241, 221);
+  background-color: rgb(255, 248, 237);
+}
+
+h2 {
+  margin-top: 1rem;
+}
+
+.btn {
+  background-color: burlywood;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  border-radius: 0.25rem;
+}
+
+input[type="text"] {
+  padding: 0.2rem;
+}
+
+.btn:hover {
+  background-color: blanchedalmond;
+}
+
+ul {
+  list-style: none;
 }

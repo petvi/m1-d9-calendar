@@ -12,9 +12,25 @@
   <body>
     <h1 id="month">Month</h1>
     <div id="calendar"></div>
+    <h2>Add a new meeting</h2>
     <p>
-      Selected date: <span id="selection"></span>
+      Selected date:
+      <span id="selection">none</span>
     </p>
+    <input type="time" id="time" />
+    <input
+      type="text"
+      id="title"
+      placeholder="Enter meeting title..."
+    />
+    <input
+      class="btn"
+      type="button"
+      value="Add"
+      id="add"
+    />
+    <h2>Upcoming mettings</h2>
+    <ul id="meetings"></ul>
     <script src="main.js"></script>
   </body>
 </html>
