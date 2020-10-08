@@ -26,3 +26,7 @@ body {
   background-color: blanchedalmond;
   border-radius: 0.25rem;
 }
+
+.selected {
+  background-color: rgb(255, 241, 221);
+}
